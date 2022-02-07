@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #6f6f6f;
+}
+nav h1{
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+nav .onglets{
+    margin-top: 3px;
+    margin-left: 300px;
+}
+nav .onglets a{
+    text-decoration: none;
+    color: #000;
+    margin-right: 10px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+}
+.opaque{
+    /*background-color: rgba(100,100,100,20);
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;*/
+    top: 0;
+    padding: 4% 35%;
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('https://cdn.discordapp.com/attachments/781477516442337281/937868055172743218/360_F_407279390_ZOWg79DZiOpAmVt6sotsPSxDnS5SPGIo.png');
+    background-size: cover;
+    color: #5a5a5a;
+    padding: 0px;
+    height: 510px;
+    background-size: 100%;
+
+}
+header h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    color:#515151;
+    margin-top:15px
+}
+header h4{
+    margin-top: -20px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 2px solid #4f4f4f;
+    color:#5a5a5a;
+}
+header button{
+    padding: 10px 20px;
+    background-color: #717171;
+    color:#fff;
+    border:none;
+    margin-bottom: 30px;
+    outline:none;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    cursor: pointer;
+}
+
+.main{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main .content .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom:20px;
+}
+.main .content .card .left{
+   flex: 0 0 30%;
+   padding: 20px;
+   background-color:black;
+   color:#fff;
+}
+.main .content .card .right img{
+    height:300px;
+    width: 400px;
+    margin-top: 5px;
+}
+
+footer{
+    margin-top: 40px;
+    border-top: 5px solid #6f6f6f;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 30px 100px;;
+}
+footer h1{
+    font-family: 'Playfair Display', serif;
+    border-bottom: 1px solid white;
+    width: 20%;
+    padding-bottom: 5px;
+}
+footer .services{
+    margin-top: -10px;
+    display:flex;
+    flex-wrap:wrap;
+}
+footer .services .service{
+    margin-right: 30px;
+}
+footer .services .service p{
+    max-width: 300px;
+}
+footer #contact{
+    color: rgb(181, 181, 181);
+}
+footer #contacts2{
+    color: rgb(55, 55, 55);
+}
+
+@media screen and (max-width:680px){
+    nav .onglets {
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .main .card {
+        margin: 10px;
+    }
+    .main .content .card .right img{
+        height:200px;
+        width: 100%;
+        margin-top: -0px;
+    }
+    .main .content .card{
+        display: block;
+    }
+    footer{
+        padding: 30px;
+    }
+}
