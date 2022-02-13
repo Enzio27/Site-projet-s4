@@ -132,6 +132,7 @@ footer #contact{
 }
 footer #contacts2{
     color: rgb(55, 55, 55);
+    padding-bottom:300px;
 }
 
 @media screen and (max-width:680px){
