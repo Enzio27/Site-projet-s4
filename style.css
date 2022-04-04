@@ -93,10 +93,11 @@ header button{
 }
 .main .content .card .left{
    flex: 0 0 30%;
+   border-radius: 30px;
    padding: 20px;
-   border-radius: 30px; 
-   background-color:rgb(30, 30, 30);
+   background-color:rgb(30,30,30);
    color:#fff;
+   margin-right: 200px;
 }
 .main .content .card .right img{
     height:300px;
